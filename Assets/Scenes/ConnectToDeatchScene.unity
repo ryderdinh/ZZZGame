@@ -152,9 +152,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac5874f564834d4bb83d70152ce4878a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  tilePrefab: {fileID: 3562712517468556736, guid: 03c5a5d0fadde184f9947a1b9a53dd81, type: 3}
-  gridWidth: 5
-  gridHeight: 5
+  emptyTilePrefab: {fileID: 3562712517468556736, guid: 8f0c02f6e4b7a884e9ff767525a96050, type: 3}
+  obstacleTilePrefab: {fileID: 3562712517468556736, guid: a7f7614fbbd9f464993a87e1fe68e8bc, type: 3}
+  startTilePrefab: {fileID: 3562712517468556736, guid: 39522f70f137f794c8379a5a93b7520f, type: 3}
+  endTilePrefab: {fileID: 3562712517468556736, guid: 8e5023579f078a747a2078baf3bdd0c4, type: 3}
+  width: 4
+  height: 4
 --- !u!4 &286527082
 Transform:
   m_ObjectHideFlags: 0
