@@ -1,0 +1,14 @@
+{
+    "title": "Connection Status: get started quickly",
+    "text": "[To start using the asset, start by importing the DTT.Networking.ConnectionStatus namespace into your script file.][You can now start referencing the ConnectionStatusManager class and get target info. Want to edit your default target settings or add a new custom one? You can do that by opening the window using Tools > DTT > Connection Status > Window.][This will open the connection status window:][i][Want to dive deeper? Take a look at our documentation:][l]",
+    "links": [
+        {
+            "text": "Open Documentation",
+            "url": "Documentation.pdf",
+            "inline": false
+        }
+    ],
+    "imageUrls": [
+        "window.png"
+    ]
+}

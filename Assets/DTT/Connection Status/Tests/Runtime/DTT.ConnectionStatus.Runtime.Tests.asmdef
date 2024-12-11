@@ -1,0 +1,38 @@
+{
+    "name": "DTT.ConnectionStatus.Runtime.Tests",
+    "references": [
+        "UnityEditor.TestRunner",
+        "UnityEngine.TestRunner",
+        "DTT.ConnectionStatus.Editor",
+        "DTT.ConnectionStatus.Runtime",
+        "DTT.EditorUtilities.Editor"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [
+        "Android",
+        "iOS",
+        "LinuxStandalone64",
+        "macOSStandalone",
+        "WSA",
+        "WebGL",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "allowUnsafeCode": false,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
+    "autoReferenced": true,
+    "defineConstraints": [
+        "UNITY_INCLUDE_TESTS"
+    ],
+    "versionDefines": [
+        {
+            "name": "com.unity.test-framework",
+            "expression": "0.0.0",
+            "define": "TEST_FRAMEWORK"
+        }
+    ],
+    "noEngineReferences": false
+}

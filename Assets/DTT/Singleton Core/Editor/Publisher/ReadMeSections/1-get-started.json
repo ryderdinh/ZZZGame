@@ -1,0 +1,14 @@
+{
+    "title": "Managed Singletons: get started quickly",
+    "text": "[To get started, create a new script and import the 'DTT.Singletons' namespace. You can now create your first Singleton behaviour class. Add your Singleton script to a game object and drag it into the project to make it a prefab.][Open the Singleton profile using the 'DTT/SingletonCore/Profile' menu item to manage your new Singleton.][i][Want to dive deeper? Take a look at our documentation:][l]",
+    "links": [
+        {
+            "text": "Open documentation",
+            "url": "Documentation.pdf",
+            "inline": false
+        }
+    ],
+    "imageUrls": [
+        "singleton_display.png"
+    ]
+}

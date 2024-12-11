@@ -1,0 +1,16 @@
+{
+    "name": "DTT.SingletonCore.Runtime",
+    "references": [
+        "GUID:1711cb30f577ba1498364a78a6873853",
+        "GUID:9f010c0829d3d8b4e916a8eed58d6743"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

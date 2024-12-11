@@ -32,7 +32,6 @@ public class ShipDragHandler : MonoBehaviour, IBeginDragHandler, IDragHandler, I
     
     public void OnCollisionEnter2D(Collision other)
     {
-        if (other.)
     }
     
     public void OnEndDrag(PointerEventData eventData)
