@@ -3,6 +3,12 @@
 - All notable changes to this package will be documented in this file.
 - The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/) and this package adheres to [Semantic Versioning](https://semver.org/)
 
+
+## [2.0.3] - 2022-06-24
+
+## Fixed
+- Issue with Vector3Extensions.Flatten method causing build issues on iOS
+
 ## [2.0.2] - 2022-05-23
 ### Updated
 - Updated minimum unity version
@@ -13,7 +19,6 @@
 
 ### Updated
  - Package.json unity version set to 2019.4 and corect documentation linked.
-
 
 ## [2.0.0] - 2022-03-24
 

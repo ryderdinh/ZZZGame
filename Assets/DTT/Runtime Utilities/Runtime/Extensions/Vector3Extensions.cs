@@ -1,5 +1,4 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
 namespace DTT.Utils.Extensions
 {
@@ -16,13 +15,14 @@ namespace DTT.Utils.Extensions
         /// <returns>The flattened vector.</returns>
         public static Vector3 Flatten(this Vector3 vector, Vector3Axis axis)
         {
-            Array values = Enum.GetValues(typeof(Vector3Axis));
-            
-            for (int i = 0; i < values.Length; i++)
-            {
-                if(axis.HasFlag((Enum)values.GetValue(i)))
-                    vector[i] = 0;
-            }
+            if (axis.HasFlag(Vector3Axis.X))
+                vector.x = 0.0f;
+
+            if (axis.HasFlag(Vector3Axis.Y))
+                vector.y = 0.0f;
+
+            if (axis.HasFlag(Vector3Axis.Z))
+                vector.z = 0.0f;
 
             return vector;
         }

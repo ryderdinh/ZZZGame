@@ -1,12 +1,18 @@
 using System.Collections;
-using UnityEngine;
+using DTT.Singletons;
+using Gilzoide.FlexUi;
 using UnityEngine.SceneManagement;
 
-public class GameManager : MonoBehaviour
+public class GameManager : SingletonBehaviour<GameManager>
 {
     private void Awake()
     {
         DontDestroyOnLoad(gameObject);
+    }
+
+    private void OnStart()
+    {
+        NetworkChecker.Instance.OnStart();
     }
 
     public void StartConnectToDeathMode()
